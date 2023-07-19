@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+  }
+
+canvas {
+    width: 200%;
+    height: 550px;
+    rotate: -8deg;
+    transform: translate(-400px, -280px);
+}
